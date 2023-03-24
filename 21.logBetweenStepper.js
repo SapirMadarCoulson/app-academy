@@ -23,3 +23,14 @@ logBetweenStepper(-10, 15, 5)  // prints out:
 // 5
 // 10
 // 15
+
+
+///more options 
+  
+  function logBetweenStepper(min, max, step) {
+    let i = min;
+    while (i <= max) {
+      console.log(i);
+      i += step;
+    }
+  }
