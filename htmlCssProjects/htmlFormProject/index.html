@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/form-handling-url" method="post">
+      <fieldset>
+        <legend>Add user</legend>
+        <!-- First Name -->
+        <div>
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="first_name" />
+        </div>
+        <!-- Last Name -->
+        <div>
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="last_name" />
+        </div>
+        <!-- Email -->
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email_address" />
+        </div>
+        <!-- status -->
+        <div>
+          <label for="status">Status</label>
+          <select id="status" name="user_status">
+            <option value="student">Student</option>
+            <option value="instructor">Instructor</option>
+            <option value="guest">Guest</option>
+          </select>
+        </div>
+        <!-- your favorite programming language  -->
+        <div>
+          <p>Choose your favorite programming language:</p>
+          <button type="html">HTML</button>
+          <button type="css">CSS</button>
+          <button type="javaScript">JavaScript</button>
+        </div>
+        <!-- comments -->
+        <div>
+          <label for="comments">Comments</label>
+          <textarea id="comments" name="comments"></textarea>
+        </div>
+        <!-- current date -->
+        <div>
+          <label for="currentDate">Current Date</label>
+          <input type="date" id="currentDate" name="currentDate" />
+        </div>
+        <!-- sign up -->
+        <div>
+          <label for="signUp">Sign up for newsletter</label>
+          <input type="checkbox" id="signUp" name="sign_up" />
+        </div>
+        <!-- agree to terms -->
+        <div>
+          <label for="agreeTerms">Agree to terms and conditions</label>
+          <input type="checkbox" id="agreeTerms" name="agree_terms" />
+        </div>
+        <!-- submit -->
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
